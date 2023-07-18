@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    width: 65vh;
+    height: 65vh;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 2px;
+    display: grid;
+    grid-template: repeat(16, 1fr) / repeat(16, 1fr);
+}
+
+.pixel {
+    width: 1fr;
+    height: 1fr;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.reset-button {
+    display: block;
+    max-width: 80px;
+    margin: 10px auto;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+    color: #fff;
+    background-color: #3882f6;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 7px 25px;
+}
+
+
+.reset-button:hover {
+    color: #3b475a;
+    background-color: #fff;
+    transform: translateY(-2px);
+    box-shadow: -1px 8px 16px 0px #2b64bd;
+}
